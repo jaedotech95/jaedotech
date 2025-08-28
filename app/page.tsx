@@ -21,13 +21,13 @@ export default function LinkSharingPage() {
     {
       title: "인스타그램",
       description: "랙 설치 현장 및 제품 사진",
-      url: "https://instagram.com/jaedotech",
+      url: "https://www.instagram.com/jaedotech_official",
       icon: <Instagram className="w-5 h-5" />,
     },
     {
       title: "네이버 밴드",
       description: "고객 소통 및 정보 공유",
-      url: "https://band.us/@jaedotech",
+      url: "https://www.band.us/page/99788398",
       icon: <Users className="w-5 h-5" />,
     },
     {
