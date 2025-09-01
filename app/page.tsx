@@ -1,8 +1,7 @@
 "use client"
 
 import type React from "react"
-
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { ExternalLink, Mail, Globe, Phone, Copy, Check, Instagram, Users } from "lucide-react"
@@ -57,12 +56,16 @@ export default function LinkSharingPage() {
         {/* Header Section */}
         <div className="text-center mb-10">
           <div className="relative mb-8">
-            <Avatar className="w-36 h-36 mx-auto border-4 border-white shadow-[inset_0_2px_10px_rgba(0,0,0,0.1),0_8px_32px_rgba(0,0,0,0.12)] bg-white relative z-10">
-              <AvatarImage src="/jaedo-logo.png" alt="재도테크 로고" className="object-contain p-3" />
-              <AvatarFallback className="text-4xl font-bold bg-gradient-to-br from-blue-600 to-indigo-600 text-white">
-                재도
-              </AvatarFallback>
-            </Avatar>
+            <div className="w-36 h-36 mx-auto border-4 border-white shadow-[inset_0_2px_10px_rgba(0,0,0,0.1),0_8px_32px_rgba(0,0,0,0.12)] bg-white relative z-10 rounded-full overflow-hidden">
+              <Image
+                src="/jaedo-logo.png"
+                alt="재도테크 로고"
+                width={144}
+                height={144}
+                priority
+                className="object-contain p-3 w-full h-full"
+              />
+            </div>
           </div>
 
           <h1 className="text-4xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 dark:from-slate-100 dark:to-slate-300 bg-clip-text text-transparent mb-4">
