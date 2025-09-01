@@ -58,7 +58,7 @@ export default function LinkSharingPage() {
           <div className="relative mb-8">
             <div className="w-36 h-36 mx-auto border-4 border-white shadow-[inset_0_2px_10px_rgba(0,0,0,0.1),0_8px_32px_rgba(0,0,0,0.12)] bg-white relative z-10 rounded-full overflow-hidden">
               <Image
-                src="/jaedo-logo.png"
+                src="/jaedo-logo-2.png"
                 alt="재도테크 로고"
                 width={144}
                 height={144}
