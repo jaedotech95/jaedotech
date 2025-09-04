@@ -74,59 +74,6 @@ export default function LinkSharingPage() {
           <p className="text-slate-600 dark:text-slate-400 text-balance mb-6 sm:mb-8 text-base sm:text-lg font-medium px-2 sm:px-0">
             경량랙·중량랙·파렛트랙 판매, 시공, 철거 전문 업체
           </p>
-
-          <Card className="p-4 sm:p-6 bg-white/90 dark:bg-slate-800/90 border-slate-200/50 dark:border-slate-700/50 shadow-[inset_0_1px_0_rgba(255,255,255,0.1),0_8px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm">
-            <div className="space-y-3 sm:space-y-4">
-              <div className="flex items-center justify-center gap-2 text-base sm:text-lg font-bold text-slate-800 dark:text-slate-200 mb-3 sm:mb-4">
-                <span>견적문의</span>
-              </div>
-
-              <div className="grid grid-cols-1 xs:grid-cols-12 gap-2 sm:gap-3">
-                {/* Phone Contact Button */}
-                <div className="xs:col-span-4 flex flex-col items-center gap-1.5 sm:gap-2 p-2.5 sm:p-3 h-auto bg-white/80 dark:bg-slate-700/50 rounded-xl border border-slate-200/50 dark:border-slate-600/50 shadow-[inset_0_1px_0_rgba(255,255,255,0.1),inset_0_-1px_0_rgba(0,0,0,0.05)]">
-                  <Phone className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-blue-600 dark:text-blue-400" />
-                  <div className="text-center">
-                    <div className="text-xs font-semibold text-slate-800 dark:text-slate-200 mb-1">연락처</div>
-                    <div className="text-xs text-slate-500 dark:text-slate-400 leading-tight space-y-0.5">
-                      <div>010-4147-9655</div>
-                      <div>010-4034-9795</div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Email Button */}
-                <Button
-                  variant="ghost"
-                  className="xs:col-span-5 flex flex-col items-center gap-1.5 sm:gap-2 p-2.5 sm:p-3 h-auto bg-white/80 dark:bg-slate-700/50 rounded-xl border border-slate-200/50 dark:border-slate-600/50 shadow-[inset_0_1px_0_rgba(255,255,255,0.1),inset_0_-1px_0_rgba(0,0,0,0.05)] hover:bg-slate-50/80 dark:hover:bg-slate-600/50 transition-all duration-200 min-h-[60px] sm:min-h-auto"
-                  asChild
-                >
-                  <a href="mailto:jaedotech95@gmail.com">
-                    <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-green-600 dark:text-green-400" />
-                    <div className="text-center">
-                      <div className="text-xs font-semibold text-slate-800 dark:text-slate-200">이메일</div>
-                      <div className="text-xs text-slate-500 dark:text-slate-400 mt-1 leading-tight break-all sm:break-normal">
-                        jaedotech95@gmail.com
-                      </div>
-                    </div>
-                  </a>
-                </Button>
-
-{/*                 <Button
-                  variant="ghost"
-                  className="xs:col-span-3 flex flex-col items-center gap-1.5 sm:gap-2 p-2.5 sm:p-3 h-auto bg-white/80 dark:bg-slate-700/50 rounded-xl border border-slate-200/50 dark:border-slate-600/50 shadow-[inset_0_1px_0_rgba(255,255,255,0.1),inset_0_-1px_0_rgba(0,0,0,0.05)] hover:bg-slate-50/80 dark:hover:bg-slate-600/50 transition-all duration-200 min-h-[60px] sm:min-h-auto"
-                  asChild
-                >
-                  <a href="https://open.kakao.com/o/sXXXXXXX" target="_blank" rel="noopener noreferrer">
-                    <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-yellow-600 dark:text-yellow-400" />
-                    <div className="text-center">
-                      <div className="text-xs font-semibold text-slate-800 dark:text-slate-200">카카오톡</div>
-                      <div className="text-xs text-slate-500 dark:text-slate-400 mt-1">채팅상담</div>
-                    </div>
-                  </a>
-                </Button> */}
-              </div>
-            </div>
-          </Card>
         </div>
 
         {/* Links Section */}
@@ -178,6 +125,46 @@ export default function LinkSharingPage() {
             </Card>
           ))}
         </div>
+
+        {/* Contact Section */}
+        <Card className="p-4 sm:p-6 bg-white/90 dark:bg-slate-800/90 border-slate-200/50 dark:border-slate-700/50 shadow-[inset_0_1px_0_rgba(255,255,255,0.1),0_8px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm mb-8 sm:mb-10">
+          <div className="space-y-3 sm:space-y-4">
+            <div className="flex items-center justify-center gap-2 text-base sm:text-lg font-bold text-slate-800 dark:text-slate-200 mb-3 sm:mb-4">
+              <span>상담 및 문의</span>
+            </div>
+
+            <div className="grid grid-cols-1 xs:grid-cols-12 gap-2 sm:gap-3">
+              {/* Phone Contact Button */}
+              <div className="xs:col-span-4 flex flex-col items-center gap-1.5 sm:gap-2 p-2.5 sm:p-3 h-auto bg-white/80 dark:bg-slate-700/50 rounded-xl border border-slate-200/50 dark:border-slate-600/50 shadow-[inset_0_1px_0_rgba(255,255,255,0.1),inset_0_-1px_0_rgba(0,0,0,0.05)]">
+                <Phone className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-blue-600 dark:text-blue-400" />
+                <div className="text-center">
+                  <div className="text-xs font-semibold text-slate-800 dark:text-slate-200 mb-1">연락처</div>
+                  <div className="text-xs text-slate-500 dark:text-slate-400 leading-tight space-y-0.5">
+                    <div>010-4147-9655</div>
+                    <div>010-4034-9795</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Email Button */}
+              <Button
+                variant="ghost"
+                className="xs:col-span-5 flex flex-col items-center gap-1.5 sm:gap-2 p-2.5 sm:p-3 h-auto bg-white/80 dark:bg-slate-700/50 rounded-xl border border-slate-200/50 dark:border-slate-600/50 shadow-[inset_0_1px_0_rgba(255,255,255,0.1),inset_0_-1px_0_rgba(0,0,0,0.05)] hover:bg-slate-50/80 dark:hover:bg-slate-600/50 transition-all duration-200 min-h-[60px] sm:min-h-auto"
+                asChild
+              >
+                <a href="mailto:jaedotech95@gmail.com">
+                  <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-green-600 dark:text-green-400" />
+                  <div className="text-center">
+                    <div className="text-xs font-semibold text-slate-800 dark:text-slate-200">이메일</div>
+                    <div className="text-xs text-slate-500 dark:text-slate-400 mt-1 leading-tight break-all sm:break-normal">
+                      jaedotech95@gmail.com
+                    </div>
+                  </div>
+                </a>
+              </Button>
+            </div>
+          </div>
+        </Card>
 
         {/* Footer */}
         <div className="text-center">
