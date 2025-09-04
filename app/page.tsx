@@ -15,7 +15,15 @@ export default function LinkSharingPage() {
       title: "재도테크 스마트스토어",
       description: "네이버 스마트스토어에서 랙 제품 구매",
       url: "https://smartstore.naver.com/jaedotech",
-      icon: <Globe className="w-5 h-5" />,
+      icon: (
+        <Image
+          src="/smartstore-icon.png"
+          alt="재도테크 스마트스토어"
+          width={24}
+          height={24}
+          className="w-5 h-5"
+        />
+      ),
     },
     {
       title: "인스타그램",
