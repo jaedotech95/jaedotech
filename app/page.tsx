@@ -19,8 +19,8 @@ export default function LinkSharingPage() {
         <Image
           src="/smartstore-icon.png"
           alt="재도테크 스마트스토어"
-          width={24}
-          height={24}
+          width={20}
+          height={20}
           className="w-5 h-5"
         />
       ),
@@ -29,19 +29,43 @@ export default function LinkSharingPage() {
       title: "인스타그램",
       description: "랙 설치 현장 및 제품 사진",
       url: "https://www.instagram.com/jaedotech__official",
-      icon: <Instagram className="w-5 h-5" />,
+      icon: (
+        <Image
+          src="/instagram-icon.png"
+          alt="재도테크 인스타그램"
+          width={20}
+          height={20}
+          className="w-5 h-5"
+        />
+      ),
     },
     {
       title: "네이버 밴드",
       description: "고객 소통 및 정보 공유",
       url: "https://www.band.us/page/99788398",
-      icon: <Users className="w-5 h-5" />,
+      icon: (
+        <Image
+          src="/band-icon.png"
+          alt="재도테크 밴드"
+          width={20}
+          height={20}
+          className="w-5 h-5"
+        />
+      ),
     },
     {
       title: "카카오톡 상담",
       description: "빠른 견적 상담 및 문의",
       url: "http://pf.kakao.com/_xjSsDn/chat",
-      icon: <Mail className="w-5 h-5" />,
+      icon: (
+        <Image
+          src="/kakao-icon.png"
+          alt="재도테크 카카오채널"
+          width={20}
+          height={20}
+          className="w-5 h-5"
+        />
+      ),
     },
   ]
 
