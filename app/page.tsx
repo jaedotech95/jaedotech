@@ -20,7 +20,7 @@ export default function LinkSharingPage() {
     {
       title: "인스타그램",
       description: "랙 설치 현장 및 제품 사진",
-      url: "https://www.instagram.com/jaedotech_official",
+      url: "https://www.instagram.com/jaedotech__official",
       icon: <Instagram className="w-5 h-5" />,
     },
     {
@@ -32,7 +32,7 @@ export default function LinkSharingPage() {
     {
       title: "카카오톡 상담",
       description: "빠른 견적 상담 및 문의",
-      url: "https://open.kakao.com/o/sXXXXXXX",
+      url: "http://pf.kakao.com/_xjSsDn/chat",
       icon: <Mail className="w-5 h-5" />,
     },
   ]
